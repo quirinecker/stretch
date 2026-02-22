@@ -17,6 +17,4 @@ jobs:
               env:
                   NODE_AUTH_TOKEN: ${{secrets.GITHUB_TOKEN}}
               run: |
-                  echo "//npm.pkg.github.com/:_authToken=$NODE_AUTH_TOKEN" > ~/.npmrc
-                  echo "@quirinecker:registry=https://npm.pkg.github.com" >> ~/.npmrc
                   npm publish

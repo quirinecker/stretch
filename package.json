@@ -1,5 +1,5 @@
 {
-	"name": "tsdown-starter",
+	"name": "@quirinecker/stretch",
 	"type": "module",
 	"version": "0.0.1",
 	"private": true,
@@ -25,5 +25,8 @@
 	"dependencies": {
 		"neverthrow": "^8.2.0",
 		"zod": "^4.3.6"
+	},
+	"publishConfig": {
+		"registry": "https://npm.pkg.github.com"
 	}
 }
