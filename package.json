@@ -1,7 +1,7 @@
 {
 	"name": "tsdown-starter",
 	"type": "module",
-	"version": "0.0.0",
+	"version": "0.0.1",
 	"private": true,
 	"description": "Structured Fetch. Fetch wrapper that provides you with typesave Error Response and Success Response",
 	"exports": {
