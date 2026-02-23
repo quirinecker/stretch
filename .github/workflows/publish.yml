@@ -1,9 +1,12 @@
 name: Publish to NPM
 
 on:
-    push:
-        branches:
-            - main
+    release:
+        types: [created]
+
+permissions:
+    contents: read
+    packages: write
 
 jobs:
     publish:
@@ -17,6 +20,4 @@ jobs:
               env:
                   NODE_AUTH_TOKEN: ${{secrets.GITHUB_TOKEN}}
               run: |
-                  echo "//npm.pkg.github.com/:_authToken=${{ secrets.NODE_AUTH_TOKEN }}" > .npmrc
-                  echo "@quirinecker:registry=https://npm.pkg.github.com" >> .npmrc
                   npm publish

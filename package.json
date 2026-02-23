@@ -1,8 +1,8 @@
 {
-	"name": "tsdown-starter",
+	"name": "@quirinecker/stretch",
 	"type": "module",
 	"version": "0.0.1",
-	"private": true,
+	"private": false,
 	"description": "Structured Fetch. Fetch wrapper that provides you with typesave Error Response and Success Response",
 	"exports": {
 		".": "./dist/index.mjs",
@@ -25,5 +25,8 @@
 	"dependencies": {
 		"neverthrow": "^8.2.0",
 		"zod": "^4.3.6"
+	},
+	"publishConfig": {
+		"registry": "https://npm.pkg.github.com"
 	}
 }
