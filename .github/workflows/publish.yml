@@ -1,13 +1,12 @@
 name: Publish to NPM
 
 on:
-    push:
-        branches:
-            - 1-publish-github-actions
+    release:
+        types: [created]
 
 permissions:
-  contents: read
-  packages: write
+    contents: read
+    packages: write
 
 jobs:
     publish:
