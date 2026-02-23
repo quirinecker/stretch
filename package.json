@@ -16,11 +16,16 @@
 	],
 	"scripts": {
 		"build": "tsdown",
-		"dev": "tsdown --watch"
+		"dev": "tsdown --watch",
+		"test": "vitest",
+		"typecheck": "tsc --noEmit",
+		"prepublishOnly": "pnpm run build"
 	},
 	"devDependencies": {
 		"tsdown": "^0.18.1",
-		"typescript": "^5.9.3"
+		"typescript": "^5.9.3",
+		"nock": "^14.0.11",
+		"vitest": "^4.0.18"
 	},
 	"dependencies": {
 		"neverthrow": "^8.2.0",
