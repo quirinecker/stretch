@@ -19,7 +19,7 @@
 		"dev": "tsdown --watch",
 		"test": "vitest",
 		"typecheck": "tsc --noEmit",
-		"prepublishOnly": "pnpm run build"
+		"prepublishOnly": "npm run build"
 	},
 	"devDependencies": {
 		"tsdown": "^0.18.1",
