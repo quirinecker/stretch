@@ -1,7 +1,7 @@
 {
 	"name": "@quirinecker/stretch",
 	"type": "module",
-	"version": "0.0.1",
+	"version": "0.1.0",
 	"private": false,
 	"description": "Structured Fetch. Fetch wrapper that provides you with typesave Error Response and Success Response",
 	"exports": {
