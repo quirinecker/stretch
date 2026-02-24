@@ -57,7 +57,7 @@ result.match(
 )
 ```
 
-## Libraries I found with that simmilar functionality
+## Libraries I found with similar functionality
 
 - [effect](https://effect.website/)
 - [zodios](https://www.zodios.org/)
