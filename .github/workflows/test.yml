@@ -2,7 +2,6 @@ on:
   push:
     branches:
       - main
-      - 4-test-execution-on-main-and-on-pull-requests
   pull_request:
     branches:
       - main
